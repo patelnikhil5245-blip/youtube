@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABESIT</title>
+</head>
+<body>
+    
+    <fieldset>
+        <legend>Personal Information:</legend>
+    <form action=" " method="post">
+    First Name: <input type="text" name="fname"><br><br>
+    Last Name: <input type="text" name="lname"><br><br>
+    Date of Birth: <input type="date" name="dob"><br><br>
+    <label for="Gender">Gender:</label> 
+    <select name="Gender" id="Selector">
+       <option value="Male">Male</option>
+       <option value="Feale">Female</option>
+       <option value="other"> other</option>
+    </select>
+    Age:<input type="number" name="age" min="1" max="100">  
+  <br><br>
+    Email:Address:  <input type="email" name="email"><br><br>
+    Contact Number: <input type="tel" name="contact" pattern="[0-9]{10}"><br><br>
+
+    Positions Avaliabel:
+    <label>
+      <input type="radio" name="Positions" value="Junior Developer">Junior Developer
+    </label>
+    <label>
+      <input type="radio" name="Positions" value="Mid-level Developer">Mid-level Developer
+    </label>
+    <label>
+      <input type="radio" name="Positions" value="Senior Developer">Senior Developer
+    </label><br><br>
+<label for="Programming">Programming Language Known:</label> 
+<input type="checkbox" name="Languages" value="C">C
+
+<input type="checkbox" name="Languages" value="C++">C++
+<input type="checkbox" name="Languages" value="Java">Java 
+    <input type="checkbox" name="Languages" value="Python">Python<br><br>
+    Experience: <input type="number" name="experience" min="0" max="50"> years<br><br>
+    Resume: <input type="file" name="resume"><br><br>
+    Comment:
+    <br><textarea name="comment" rows="5" cols="40" placeholder="Enter the text">Enetr the text </textarea><br><br>
+    
+    Password: <input type="password" name="password">
+    Confirm Password: <input type="password" name="cpassword"><br><br>
+    </fieldset>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+       
+  
+  
+  </body>
